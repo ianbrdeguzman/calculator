@@ -10,6 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #b8c6db;
@@ -89,4 +90,13 @@ button:active {
 
 #calculate {
     flex-grow: 7;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #272727;
 }
